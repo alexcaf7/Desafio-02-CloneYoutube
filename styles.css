@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+    font-family: "Roboto", sans-serif;
+    color: #515151;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px 20px;
+}
+
+.menu-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-menu {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-youtube {
+    width: 90px;
+    height: 20px;
+}
+
+.source-bar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 40px;
+}
+
+.input-source {
+    width: 440px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.icon-source {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-left: 0px;
+    border-radius: 0px 5px 5px 0;
+    background-color: #F8F8F8;
+}
+
+.icon-video, .icon-bell {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-profile {
+    width: 34px;
+    height: 34px;
+    background-image: url("../img/foto_profile.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wacthing-video {
+    padding: 20px 20px 20px 70px;
+    width: 70%;
+}
+
+.video-player img {
+    width: 100%;
+    background-size: cover;
+}
+
+.title_movie_player {
+    color: #0f0f0f;
+    margin-top: 10px;
+}
+.video-description {
+    color: #0f0f0f;
+    margin-top: 10px;
+}
+
+.video-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.channel-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 3px;
+}
+
+.title-channel {
+    width: 100%;
+    color: #0f0f0f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.subsscrites {
+    width: 100%;
+    font-size: 14px;
+}
+
+.button-subscrite {
+    background-color: #CC0000;
+    color: #FFF;
+    padding: 10PX;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.like, .dislike, .share, .download {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #0f0f0f;
+    font-weight: bold;
+}
+
+.video-visualizations {
+    color: #0f0f0f;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.video-description {
+    margin-top: 20px;
+}
+
+
+
+/*  --- SIDE BAR ---  */
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.movie-01, .movie-02, .movie-03, .movie-04, .movie-05, .movie-06, .movie-07, .movie-08, .movie-09 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+}
+
+.thumbnail {
+    width: 160px;
+    height: 90px;
+}
+
+.title_thumbnail {
+    color: #0f0f0f;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.channel {
+    color: #606060;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;   
+}
+
+.visualizations, .days {
+    color: #818181;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;    
+}
+
+
